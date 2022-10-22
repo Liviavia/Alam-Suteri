@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+}
+
+#header_image{
+    background-image: url("../assets/background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    width: 500px;
+    height: 100px;
+}
+
+#header_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:darkcyan;
+}
+
+.home, .register{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+p{
+    text-align: initial;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#paragraf_pertama{
+    padding-top: 30px;
+}
+
+#foto_pertama{
+    background-image: url("../assets/house.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+#foto_pertama:hover{
+    background-image: url("../assets/hover-house.gif");
+    transition: 0.3s;
+    background-size: cover;
+}
+
+#foto_kedua{
+    background-image: url("../assets/apartment.gif");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+#foto_kedua:hover{
+    background-image: url("../assets/hover-apartement.gif");
+    transform: 0,3s;
+    background-size: cover;
+}
+
+#bagian_pertama, #bagian_kedua, #bagian_ketiga{
+    display: flex;
+    flex-direction: row;
+}
+
+#bagian_pertama, #bagian_kedua, #bagian_ketiga{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#bagian_pertama_gambar, #bagian_ketiga_gambar{
+    width: 500px;
+    height: 200px;
+    padding-right: 10px;
+}
+
+#bagian_pertama_teks, #bagian_ketiga_teks{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#bagian_kedua_teks{
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+#bagian_kedua_gambar{
+    padding-left: 10px;
+    width: 500px;
+    height: 200px;
+}
+
+footer{
+    background-color: darkcyan;
+    width: 100%;
+    height: 80px;
+}
+
+.ig, .fb{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+#visitus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
